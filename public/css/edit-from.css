@@ -1,0 +1,67 @@
+/* Set font-family to Poppins for all form elements */
+body, input, button, select, textarea {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Style the form title */
+  .text-uppercase {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  /* Style the form input fields */
+  .form-label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Style the form file input field and image preview */
+  #img {
+    display: none;
+  }
+  
+  .row {
+    justify-content: center;
+  }
+  
+  #preview-image-before-upload {
+    cursor: pointer;
+  }
+  
+  /* Style the form submit button */
+  .btn {
+    background: linear-gradient(45deg, #852a7d, #ac1ec9);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(45deg, #ff00dd, #f351f3);
+    cursor: pointer;
+  }
+
+  .form-control:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  

@@ -1,0 +1,50 @@
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 20px;
+    width: 700px;
+    height: 70px;
+    margin: auto;
+    color: #8C52FF;
+  }
+  .filter select {
+    max-width: 400px;
+  }
+
+  .filter label {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin-right: 10px;
+  }
+  
+  .filter select {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #8C52FF;
+    cursor: pointer;
+  }
+  
+  .filter select option:first-child {
+    color: #8C52FF;
+    font-weight: bold;
+  }
+  
+  .filter select option:not(:first-child) {
+    color: #8C52FF;
+    font-weight: normal;
+  }
+  
+  .filter select::-ms-expand {
+    display: none;
+  }
+  

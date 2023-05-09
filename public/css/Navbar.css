@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,500,600,700|Lato:400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+.navbar {
+    background-color: #071344 u; /* replace with your desired background color */
+    font-family: 'Poppins',serif; /* replace with your desired font */
+}
+.navbar-nav .nav-link {
+    color: #8C52FF; /* replace with your desired text color */
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+    font-size: larger;
+}
+.navbar-nav .nav-link.active {
+    color: #8C52FF;
+}
+.shadow-custom {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2), 0 4px 10px rgba(0,0,0,0.2);
+  }
+
+  /* CSS for large screens */
+  .navbar img {
+    max-height: 50px; /* set maximum height for logo */
+  }
+  
+  /* styles for small screens */
+  @media (max-width: 768px) {
+    .img {
+      max-height: 30px; /* set smaller maximum height for logo */
+      margin-top: 5px; /* adjust top margin to center logo within navbar */
+    }
+  }
